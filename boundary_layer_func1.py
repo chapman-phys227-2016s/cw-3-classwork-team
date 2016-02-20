@@ -10,7 +10,7 @@ Assignment: 5.49
 Date: Feb 18, 2016
 Email: raman105@mail.chapman.edu
 Name: Chinmai Raman
-Description: Calculates an exponential function and returns the numerator, denominator and the fraction as a 3-tuple
+Description: Calculates an exponential function and returns the numerator, denominator and the fraction as a 3-tuple.
 """
 
 import numpy as np
