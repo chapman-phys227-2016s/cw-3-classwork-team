@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 """
-File: fill_arrays_vectorized.py
+File: boundary_layer_func1.py
 Copyright (c) 2016 Chinmai Raman
 License: MIT
 
