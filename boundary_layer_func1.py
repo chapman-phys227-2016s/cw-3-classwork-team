@@ -26,7 +26,7 @@ def part_b():
     print('part b (using default float64):')
     for i in x:
         try:
-            print v(i, 1e-3), v(i, 1e-3, np.exp)
+            print v(i, 1e-3, np.exp)
         except:
             print("overflow")
 
@@ -37,7 +37,7 @@ def part_d():
     print('part d (using float128):')
     for i in x:
         try:
-            print v(i, mu), v(i, mu, np.exp)
+            print v(i, mu, np.exp)
         except:
             print("overflow")
 
@@ -48,7 +48,7 @@ def part_e():
     print('part e (using float32):')
     for i in x:
         try:
-            print v(i, mu), v(i, mu, np.exp)
+            print v(i, mu, np.exp)
         except:
             print("overflow")
 
