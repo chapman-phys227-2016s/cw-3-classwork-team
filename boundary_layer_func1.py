@@ -54,9 +54,3 @@ def part_e():
 
 def test_v():
     assert (abs(v(1, 1)[2] - 1.0) < 1e-3), "Failure"
-
-test_v()
-
-part_b()
-part_d()
-part_e()
