@@ -17,8 +17,8 @@ import numpy as np
 import math
 
 def v(x, mu = 1e-6, exp = math.exp):
-    num = 1 - exp(x / mu)
-    den = 1 - exp(1 / mu)
+    num = 1.0 - exp(x / mu)
+    den = 1.0 - exp(1.0 / mu)
     return num, den, num / den
 
 def part_b():
