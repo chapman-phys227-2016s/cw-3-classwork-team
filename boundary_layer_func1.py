@@ -17,8 +17,8 @@ import numpy as np
 import math
 
 def v(x, mu = 1e-6, exp = math.exp):
-    num = 1 - exp(x / mu)
-    den = 1 - exp(1 / mu)
+    num = 1.0 - exp(x / mu)
+    den = 1.0 - exp(1.0 / mu)
     return num, den, num / den
 
 def part_b():
@@ -26,7 +26,7 @@ def part_b():
     print('part b (using default float64):')
     for i in x:
         try:
-            print v(i, 1e-3), v(i, 1e-3, np.exp)
+            print v(i, 1e-3, np.exp)
         except:
             print("overflow")
 
@@ -37,7 +37,7 @@ def part_d():
     print('part d (using float128):')
     for i in x:
         try:
-            print v(i, mu), v(i, mu, np.exp)
+            print v(i, mu, np.exp)
         except:
             print("overflow")
 
@@ -48,15 +48,9 @@ def part_e():
     print('part e (using float32):')
     for i in x:
         try:
-            print v(i, mu), v(i, mu, np.exp)
+            print v(i, mu, np.exp)
         except:
             print("overflow")
 
 def test_v():
     assert (abs(v(1, 1)[2] - 1.0) < 1e-3), "Failure"
-
-test_v()
-
-part_b()
-part_d()
-part_e()
