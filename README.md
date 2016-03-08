@@ -1,8 +1,8 @@
 # PHYS227 CW 3
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** Michael Seaman, Austin Ayers, Taylor Patti, Andrew Malfavon
 
-[![Build Status](https://travis-ci.org/chapman-phys227-2016s/cw-3-YOURTEAM.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/cw-3-YOURTEAM)
+[![Build Status](https://travis-ci.org/chapman-phys227-2016s/cw-3-classwork-team.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/cw-3-classwork-team)
 
 **Due date:** 2016/02/23
 
@@ -19,7 +19,7 @@ Finally, to cleanly present your work, create a Jupyter notebook ```cw3.ipynb```
 
 ## Assessment
 
-_\<Analyze what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.\>_
+Yay, good stuff. We liked it yes indeed.
 
 ## Honor Pledge
 
@@ -30,4 +30,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-_\<your name(s)\>_
+Errbody
